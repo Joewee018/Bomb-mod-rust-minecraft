@@ -1,0 +1,256 @@
+{
+  "format_version": "1.23.0",
+  "name": "GBU-43/B MOAB (21,600 lb)",
+  "texture_width": 256,
+  "texture_height": 256,
+  "visible_bounds_width": 20,
+  "visible_bounds_height": 20,
+  "visible_bounds_depth": 50,
+  "groups": [
+    {
+      "name": "BombBody",
+      "origin": [0, 0, 0],
+      "cubes": [
+        {
+          "origin": [-10, -10, -25],
+          "size": [20, 20, 50],
+          "uv": [0, 0],
+          "inflate": 0
+        },
+        {
+          "origin": [-9, -9, -26],
+          "size": [18, 18, 4],
+          "uv": [80, 0],
+          "inflate": 0
+        },
+        {
+          "origin": [-10, -10, -25],
+          "size": [20, 20, 2],
+          "uv": [0, 100],
+          "inflate": 0.1
+        }
+      ]
+    },
+    {
+      "name": "TailFins",
+      "origin": [0, 0, 25],
+      "children": [
+        {
+          "name": "Fin1",
+          "origin": [0, 0, 0],
+          "cubes": [
+            {
+              "origin": [-1, -12, 25],
+              "size": [2, 24, 12],
+              "uv": [0, 116],
+              "inflate": 0
+            }
+          ]
+        },
+        {
+          "name": "Fin2",
+          "origin": [0, 0, 0],
+          "cubes": [
+            {
+              "origin": [-1, -12, 25],
+              "size": [2, 24, 12],
+              "uv": [0, 116],
+              "inflate": 0
+            }
+          ],
+          "rotation": [0, 90, 0]
+        },
+        {
+          "name": "Fin3",
+          "origin": [0, 0, 0],
+          "cubes": [
+            {
+              "origin": [-1, -12, 25],
+              "size": [2, 24, 12],
+              "uv": [0, 116],
+              "inflate": 0
+            }
+          ],
+          "rotation": [0, 180, 0]
+        },
+        {
+          "name": "Fin4",
+          "origin": [0, 0, 0],
+          "cubes": [
+            {
+              "origin": [-1, -12, 25],
+              "size": [2, 24, 12],
+              "uv": [0, 116],
+              "inflate": 0
+            }
+          ],
+          "rotation": [0, 270, 0]
+        }
+      ]
+    },
+    {
+      "name": "GuidanceKit",
+      "origin": [0, 0, -25],
+      "children": [
+        {
+          "name": "GPSUnit",
+          "origin": [0, 0, 0],
+          "cubes": [
+            {
+              "origin": [-3, -3, -28],
+              "size": [6, 6, 3],
+              "uv": [0, 152],
+              "inflate": 0
+            }
+          ]
+        },
+        {
+          "name": "Strakes",
+          "origin": [0, 0, -20],
+          "children": [
+            {
+              "name": "Strafe1",
+              "origin": [0, 0, 0],
+              "cubes": [
+                {
+                  "origin": [-12, -0.5, -20],
+                  "size": [24, 1, 10],
+                  "uv": [0, 161],
+                  "inflate": 0
+                }
+              ]
+            },
+            {
+              "name": "Strafe2",
+              "origin": [0, 0, 0],
+              "cubes": [
+                {
+                  "origin": [-12, -0.5, -20],
+                  "size": [24, 1, 10],
+                  "uv": [0, 161],
+                  "inflate": 0
+                }
+              ],
+              "rotation": [0, 90, 0]
+            },
+            {
+              "name": "Strafe3",
+              "origin": [0, 0, 0],
+              "cubes": [
+                {
+                  "origin": [-12, -0.5, -20],
+                  "size": [24, 1, 10],
+                  "uv": [0, 161],
+                  "inflate": 0
+                }
+              ],
+              "rotation": [0, 180, 0]
+            },
+            {
+              "name": "Strafe4",
+              "origin": [0, 0, 0],
+              "cubes": [
+                {
+                  "origin": [-12, -0.5, -20],
+                  "size": [24, 1, 10],
+                  "uv": [0, 161],
+                  "inflate": 0
+                }
+              ],
+              "rotation": [0, 270, 0]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Parachute",
+      "origin": [0, 0, -25],
+      "children": [
+        {
+          "name": "Chute",
+          "origin": [0, 0, 0],
+          "cubes": [
+            {
+              "origin": [-20, 10, -25],
+              "size": [40, 30, 1],
+              "uv": [0, 172],
+              "inflate": 0
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "name": "gbu43_body",
+      "path": "textures/entity/bombs/gbu43_body.png"
+    },
+    {
+      "name": "gbu43_fins",
+      "path": "textures/entity/bombs/gbu43_fins.png"
+    },
+    {
+      "name": "gbu43_guidance",
+      "path": "textures/entity/bombs/gbu43_guidance.png"
+    },
+    {
+      "name": "gbu43_chute",
+      "path": "textures/entity/bombs/gbu43_chute.png"
+    }
+  ],
+  "display": {
+    "gui": {
+      "rotation": [0, 45, 0],
+      "translation": [0, 0, 0],
+      "scale": 0.4
+    },
+    "ground": {
+      "rotation": [0, 0, 0],
+      "translation": [0, 0, 0],
+      "scale": 0.2
+    },
+    "fixed": {
+      "rotation": [0, 0, 0],
+      "translation": [0, 0, 0],
+      "scale": 0.3
+    },
+    "firstperson_righthand": {
+      "rotation": [0, 0, 0],
+      "translation": [0, 0, 0],
+      "scale": 0.25
+    },
+    "thirdperson_righthand": {
+      "rotation": [0, 0, 0],
+      "translation": [0, 0, 0],
+      "scale": 0.2
+    }
+  },
+  "animations": {
+    "fin_deploy": {
+      "loop": false,
+      "bones": {
+        "Fin1": { "rotation": [{"pre": "query.fin_deploy * 90"}, 0, 0] },
+        "Fin2": { "rotation": [{"pre": "query.fin_deploy * 90"}, 90, 0] },
+        "Fin3": { "rotation": [{"pre": "query.fin_deploy * 90"}, 180, 0] },
+        "Fin4": { "rotation": [{"pre": "query.fin_deploy * 90"}, 270, 0] }
+      }
+    },
+    "strake_deploy": {
+      "loop": false,
+      "bones": {
+        "Strafe1": { "rotation": [{"pre": "query.strake_deploy * -90"}, 0, 0] },
+        "Strafe2": { "rotation": [{"pre": "query.strake_deploy * -90"}, 90, 0] },
+        "Strafe3": { "rotation": [{"pre": "query.strake_deploy * -90"}, 180, 0] },
+        "Strafe4": { "rotation": [{"pre": "query.strake_deploy * -90"}, 270, 0] }
+      }
+    },
+    "parachute_deploy": {
+      "loop": false,
+      "bones": {
+        "Chute": { "rotation": [{"pre": "query.chute_deploy * -90"}, 0, 0], "scale": [{"pre": "query.chute_deploy"}, {"pre": "query.chute_deploy"}, 1] }
+      }
+    }
+  }
+}

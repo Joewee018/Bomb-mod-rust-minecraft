@@ -1,0 +1,545 @@
+{
+  "format_version": "1.23.0",
+  "name": "Mk 84 Bomb (2,000 lb) - Detailed",
+  "texture_width": 512,
+  "texture_height": 512,
+  "visible_bounds_width": 10,
+  "visible_bounds_height": 10,
+  "visible_bounds_depth": 22,
+  "groups": [
+    {
+      "name": "BombBody",
+      "origin": [0, 0, 0],
+      "children": [
+        {
+          "name": "NoseSection",
+          "origin": [0, 0, -11],
+          "cubes": [
+            {
+              "origin": [-4, -4, -11],
+              "size": [8, 8, 4],
+              "uv": [0, 0],
+              "inflate": 0
+            },
+            {
+              "origin": [-3.5, -3.5, -10],
+              "size": [7, 7, 3],
+              "uv": [32, 0],
+              "inflate": 0.1
+            },
+            {
+              "origin": [-3, -3, -9],
+              "size": [6, 6, 3],
+              "uv": [60, 0],
+              "inflate": 0.2
+            }
+          ]
+        },
+        {
+          "name": "MainBody",
+          "origin": [0, 0, -7],
+          "cubes": [
+            {
+              "origin": [-4.2, -4.2, -7],
+              "size": [8.4, 8.4, 14],
+              "uv": [0, 12],
+              "inflate": 0
+            },
+            {
+              "origin": [-4, -4, -7],
+              "size": [8, 8, 14],
+              "uv": [68, 12],
+              "inflate": 0.1
+            }
+          ]
+        },
+        {
+          "name": "AftBody",
+          "origin": [0, 0, 7],
+          "cubes": [
+            {
+              "origin": [-4, -4, 7],
+              "size": [8, 8, 3],
+              "uv": [0, 38],
+              "inflate": 0
+            },
+            {
+              "origin": [-3.5, -3.5, 10],
+              "size": [7, 7, 2],
+              "uv": [32, 38],
+              "inflate": 0.1
+            }
+          ]
+        },
+        {
+          "name": "Lugs",
+          "origin": [0, 0, -5],
+          "children": [
+            {
+              "name": "LugFront",
+              "origin": [0, -4.2, -5],
+              "cubes": [
+                {
+                  "origin": [-1, -4.8, -5],
+                  "size": [2, 1.2, 3],
+                  "uv": [0, 50],
+                  "inflate": 0
+                }
+              ]
+            },
+            {
+              "name": "LugRear",
+              "origin": [0, -4.2, 5],
+              "cubes": [
+                {
+                  "origin": [-1, -4.8, 5],
+                  "size": [2, 1.2, 3],
+                  "uv": [0, 50],
+                  "inflate": 0
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "TailFins",
+      "origin": [0, 0, 10],
+      "children": [
+        {
+          "name": "FinRoot1",
+          "origin": [0, 0, 0],
+          "cubes": [
+            {
+              "origin": [-0.5, -6, 10],
+              "size": [1, 6.5, 3.5],
+              "uv": [0, 60],
+              "inflate": 0
+            }
+          ]
+        },
+        {
+          "name": "FinTip1",
+          "origin": [0, -6, 13.5],
+          "cubes": [
+            {
+              "origin": [-0.45, -7, 13.5],
+              "size": [0.9, 3.5, 3],
+              "uv": [12, 60],
+              "inflate": 0
+            }
+          ]
+        },
+        {
+          "name": "FinRoot2",
+          "origin": [0, 0, 0],
+          "cubes": [
+            {
+              "origin": [-0.5, -6, 10],
+              "size": [1, 6.5, 3.5],
+              "uv": [0, 60],
+              "inflate": 0
+            }
+          ],
+          "rotation": [0, 90, 0]
+        },
+        {
+          "name": "FinTip2",
+          "origin": [0, -6, 13.5],
+          "cubes": [
+            {
+              "origin": [-0.45, -7, 13.5],
+              "size": [0.9, 3.5, 3],
+              "uv": [12, 60],
+              "inflate": 0
+            }
+          ],
+          "rotation": [0, 90, 0]
+        },
+        {
+          "name": "FinRoot3",
+          "origin": [0, 0, 0],
+          "cubes": [
+            {
+              "origin": [-0.5, -6, 10],
+              "size": [1, 6.5, 3.5],
+              "uv": [0, 60],
+              "inflate": 0
+            }
+          ],
+          "rotation": [0, 180, 0]
+        },
+        {
+          "name": "FinTip3",
+          "origin": [0, -6, 13.5],
+          "cubes": [
+            {
+              "origin": [-0.45, -7, 13.5],
+              "size": [0.9, 3.5, 3],
+              "uv": [12, 60],
+              "inflate": 0
+            }
+          ],
+          "rotation": [0, 180, 0]
+        },
+        {
+          "name": "FinRoot4",
+          "origin": [0, 0, 0],
+          "cubes": [
+            {
+              "origin": [-0.5, -6, 10],
+              "size": [1, 6.5, 3.5],
+              "uv": [0, 60],
+              "inflate": 0
+            }
+          ],
+          "rotation": [0, 270, 0]
+        },
+        {
+          "name": "FinTip4",
+          "origin": [0, -6, 13.5],
+          "cubes": [
+            {
+              "origin": [-0.45, -7, 13.5],
+              "size": [0.9, 3.5, 3],
+              "uv": [12, 60],
+              "inflate": 0
+            }
+          ],
+          "rotation": [0, 270, 0]
+        }
+      ]
+    },
+    {
+      "name": "PavewayKit",
+      "origin": [0, 0, -11],
+      "children": [
+        {
+          "name": "SeekerHead",
+          "origin": [0, 0, 0],
+          "cubes": [
+            {
+              "origin": [-2, -2, -13],
+              "size": [4, 4, 2],
+              "uv": [0, 70],
+              "inflate": 0
+            },
+            {
+              "origin": [-1.5, -1.5, -12],
+              "size": [3, 3, 1],
+              "uv": [16, 70],
+              "inflate": 0.1
+            }
+          ]
+        },
+        {
+          "name": "Canards",
+          "origin": [0, 0, -9],
+          "children": [
+            {
+              "name": "CanardRoot1",
+              "origin": [0, 0, 0],
+              "cubes": [
+                {
+                  "origin": [-0.4, -2.5, -9],
+                  "size": [0.8, 3, 1.5],
+                  "uv": [0, 75],
+                  "inflate": 0
+                }
+              ]
+            },
+            {
+              "name": "CanardTip1",
+              "origin": [0, -2.5, -10.5],
+              "cubes": [
+                {
+                  "origin": [-0.35, -3, -10.5],
+                  "size": [0.7, 2, 1.5],
+                  "uv": [8, 75],
+                  "inflate": 0
+                }
+              ]
+            },
+            {
+              "name": "CanardRoot2",
+              "origin": [0, 0, 0],
+              "cubes": [
+                {
+                  "origin": [-0.4, -2.5, -9],
+                  "size": [0.8, 3, 1.5],
+                  "uv": [0, 75],
+                  "inflate": 0
+                }
+              ],
+              "rotation": [0, 90, 0]
+            },
+            {
+              "name": "CanardTip2",
+              "origin": [0, -2.5, -10.5],
+              "cubes": [
+                {
+                  "origin": [-0.35, -3, -10.5],
+                  "size": [0.7, 2, 1.5],
+                  "uv": [8, 75],
+                  "inflate": 0
+                }
+              ],
+              "rotation": [0, 90, 0]
+            },
+            {
+              "name": "CanardRoot3",
+              "origin": [0, 0, 0],
+              "cubes": [
+                {
+                  "origin": [-0.4, -2.5, -9],
+                  "size": [0.8, 3, 1.5],
+                  "uv": [0, 75],
+                  "inflate": 0
+                }
+              ],
+              "rotation": [0, 180, 0]
+            },
+            {
+              "name": "CanardTip3",
+              "origin": [0, -2.5, -10.5],
+              "cubes": [
+                {
+                  "origin": [-0.35, -3, -10.5],
+                  "size": [0.7, 2, 1.5],
+                  "uv": [8, 75],
+                  "inflate": 0
+                }
+              ],
+              "rotation": [0, 180, 0]
+            },
+            {
+              "name": "CanardRoot4",
+              "origin": [0, 0, 0],
+              "cubes": [
+                {
+                  "origin": [-0.4, -2.5, -9],
+                  "size": [0.8, 3, 1.5],
+                  "uv": [0, 75],
+                  "inflate": 0
+                }
+              ],
+              "rotation": [0, 270, 0]
+            },
+            {
+              "name": "CanardTip4",
+              "origin": [0, -2.5, -10.5],
+              "cubes": [
+                {
+                  "origin": [-0.35, -3, -10.5],
+                  "size": [0.7, 2, 1.5],
+                  "uv": [8, 75],
+                  "inflate": 0
+                }
+              ],
+              "rotation": [0, 270, 0]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Strakes",
+      "origin": [0, 0, -5],
+      "children": [
+        {
+          "name": "StrafeRoot1",
+          "origin": [0, 0, 0],
+          "cubes": [
+            {
+              "origin": [-5.5, -0.3, -5],
+              "size": [11, 0.6, 6],
+              "uv": [0, 80],
+              "inflate": 0
+            }
+          ]
+        },
+        {
+          "name": "StrafeTip1",
+          "origin": [0, 0, 1],
+          "cubes": [
+            {
+              "origin": [-6, -0.4, 1],
+              "size": [12, 0.8, 4],
+              "uv": [34, 80],
+              "inflate": 0
+            }
+          ]
+        },
+        {
+          "name": "StrafeRoot2",
+          "origin": [0, 0, 0],
+          "cubes": [
+            {
+              "origin": [-5.5, -0.3, -5],
+              "size": [11, 0.6, 6],
+              "uv": [0, 80],
+              "inflate": 0
+            }
+          ],
+          "rotation": [0, 90, 0]
+        },
+        {
+          "name": "StrafeTip2",
+          "origin": [0, 0, 1],
+          "cubes": [
+            {
+              "origin": [-6, -0.4, 1],
+              "size": [12, 0.8, 4],
+              "uv": [34, 80],
+              "inflate": 0
+            }
+          ],
+          "rotation": [0, 90, 0]
+        },
+        {
+          "name": "StrafeRoot3",
+          "origin": [0, 0, 0],
+          "cubes": [
+            {
+              "origin": [-5.5, -0.3, -5],
+              "size": [11, 0.6, 6],
+              "uv": [0, 80],
+              "inflate": 0
+            }
+          ],
+          "rotation": [0, 180, 0]
+        },
+        {
+          "name": "StrafeTip3",
+          "origin": [0, 0, 1],
+          "cubes": [
+            {
+              "origin": [-6, -0.4, 1],
+              "size": [12, 0.8, 4],
+              "uv": [34, 80],
+              "inflate": 0
+            }
+          ],
+          "rotation": [0, 180, 0]
+        },
+        {
+          "name": "StrafeRoot4",
+          "origin": [0, 0, 0],
+          "cubes": [
+            {
+              "origin": [-5.5, -0.3, -5],
+              "size": [11, 0.6, 6],
+              "uv": [0, 80],
+              "inflate": 0
+            }
+          ],
+          "rotation": [0, 270, 0]
+        },
+        {
+          "name": "StrafeTip4",
+          "origin": [0, 0, 1],
+          "cubes": [
+            {
+              "origin": [-6, -0.4, 1],
+              "size": [12, 0.8, 4],
+              "uv": [34, 80],
+              "inflate": 0
+            }
+          ],
+          "rotation": [0, 270, 0]
+        }
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "name": "mk84_body",
+      "path": "textures/entity/bombs/mk84/mk84_body.png"
+    },
+    {
+      "name": "mk84_fins",
+      "path": "textures/entity/bombs/mk84/mk84_fins.png"
+    },
+    {
+      "name": "paveway_kit",
+      "path": "textures/entity/bombs/mk84/paveway_kit.png"
+    },
+    {
+      "name": "mk84_strakes",
+      "path": "textures/entity/bombs/mk84/mk84_strakes.png"
+    },
+    {
+      "name": "mk84_lugs",
+      "path": "textures/entity/bombs/mk84/mk84_lugs.png"
+    }
+  ],
+  "display": {
+    "gui": {
+      "rotation": [0, 45, 0],
+      "translation": [0, 0, 0],
+      "scale": 1.3
+    },
+    "ground": {
+      "rotation": [0, 0, 0],
+      "translation": [0, 0, 0],
+      "scale": 0.7
+    },
+    "fixed": {
+      "rotation": [0, 0, 0],
+      "translation": [0, 0, 0],
+      "scale": 1.1
+    },
+    "firstperson_righthand": {
+      "rotation": [0, 0, 0],
+      "translation": [0, 0, 0],
+      "scale": 0.9
+    },
+    "thirdperson_righthand": {
+      "rotation": [0, 0, 0],
+      "translation": [0, 0, 0],
+      "scale": 0.7
+    }
+  },
+  "animations": {
+    "fin_deploy": {
+      "loop": false,
+      "bones": {
+        "FinRoot1": { "rotation": [{"pre": "query.fin_deploy * 90"}, 0, 0] },
+        "FinTip1": { "rotation": [{"pre": "query.fin_deploy * 90"}, 0, 0] },
+        "FinRoot2": { "rotation": [{"pre": "query.fin_deploy * 90"}, 90, 0] },
+        "FinTip2": { "rotation": [{"pre": "query.fin_deploy * 90"}, 90, 0] },
+        "FinRoot3": { "rotation": [{"pre": "query.fin_deploy * 90"}, 180, 0] },
+        "FinTip3": { "rotation": [{"pre": "query.fin_deploy * 90"}, 180, 0] },
+        "FinRoot4": { "rotation": [{"pre": "query.fin_deploy * 90"}, 270, 0] },
+        "FinTip4": { "rotation": [{"pre": "query.fin_deploy * 90"}, 270, 0] }
+      }
+    },
+    "canard_deploy": {
+      "loop": false,
+      "bones": {
+        "CanardRoot1": { "rotation": [{"pre": "query.canard_deploy * -90"}, 0, 0] },
+        "CanardTip1": { "rotation": [{"pre": "query.canard_deploy * -90"}, 0, 0] },
+        "CanardRoot2": { "rotation": [{"pre": "query.canard_deploy * -90"}, 90, 0] },
+        "CanardTip2": { "rotation": [{"pre": "query.canard_deploy * -90"}, 90, 0] },
+        "CanardRoot3": { "rotation": [{"pre": "query.canard_deploy * -90"}, 180, 0] },
+        "CanardTip3": { "rotation": [{"pre": "query.canard_deploy * -90"}, 180, 0] },
+        "CanardRoot4": { "rotation": [{"pre": "query.canard_deploy * -90"}, 270, 0] },
+        "CanardTip4": { "rotation": [{"pre": "query.canard_deploy * -90"}, 270, 0] }
+      }
+    },
+    "strake_deploy": {
+      "loop": false,
+      "bones": {
+        "StrafeRoot1": { "rotation": [{"pre": "query.strake_deploy * -90"}, 0, 0] },
+        "StrafeTip1": { "rotation": [{"pre": "query.strake_deploy * -90"}, 0, 0] },
+        "StrafeRoot2": { "rotation": [{"pre": "query.strake_deploy * -90"}, 90, 0] },
+        "StrafeTip2": { "rotation": [{"pre": "query.strake_deploy * -90"}, 90, 0] },
+        "StrafeRoot3": { "rotation": [{"pre": "query.strake_deploy * -90"}, 180, 0] },
+        "StrafeTip3": { "rotation": [{"pre": "query.strake_deploy * -90"}, 180, 0] },
+        "StrafeRoot4": { "rotation": [{"pre": "query.strake_deploy * -90"}, 270, 0] },
+        "StrafeTip4": { "rotation": [{"pre": "query.strake_deploy * -90"}, 270, 0] }
+      }
+    }
+  }
+}

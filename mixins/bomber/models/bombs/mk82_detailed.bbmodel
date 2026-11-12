@@ -1,0 +1,396 @@
+{
+  "format_version": "1.23.0",
+  "name": "Mk 82 Bomb (500 lb) - Detailed",
+  "texture_width": 512,
+  "texture_height": 512,
+  "visible_bounds_width": 6,
+  "visible_bounds_height": 6,
+  "visible_bounds_depth": 14,
+  "groups": [
+    {
+      "name": "BombBody",
+      "origin": [0, 0, 0],
+      "children": [
+        {
+          "name": "NoseSection",
+          "origin": [0, 0, -7],
+          "cubes": [
+            {
+              "origin": [-2.5, -2.5, -7],
+              "size": [5, 5, 3],
+              "uv": [0, 0],
+              "inflate": 0
+            },
+            {
+              "origin": [-2, -2, -6],
+              "size": [4, 4, 2],
+              "uv": [20, 0],
+              "inflate": 0.1
+            },
+            {
+              "origin": [-1.5, -1.5, -5],
+              "size": [3, 3, 2],
+              "uv": [36, 0],
+              "inflate": 0.2
+            }
+          ]
+        },
+        {
+          "name": "MainBody",
+          "origin": [0, 0, -4],
+          "cubes": [
+            {
+              "origin": [-2.8, -2.8, -4],
+              "size": [5.6, 5.6, 10],
+              "uv": [0, 10],
+              "inflate": 0
+            },
+            {
+              "origin": [-2.5, -2.5, -4],
+              "size": [5, 5, 10],
+              "uv": [44, 10],
+              "inflate": 0.1
+            }
+          ]
+        },
+        {
+          "name": "TailSection",
+          "origin": [0, 0, 6],
+          "cubes": [
+            {
+              "origin": [-2.5, -2.5, 6],
+              "size": [5, 5, 3],
+              "uv": [0, 26],
+              "inflate": 0
+            },
+            {
+              "origin": [-2, -2, 9],
+              "size": [4, 4, 2],
+              "uv": [20, 26],
+              "inflate": 0.1
+            }
+          ]
+        },
+        {
+          "name": "Lugs",
+          "origin": [0, 0, -2],
+          "children": [
+            {
+              "name": "LugFront",
+              "origin": [0, -2.8, -2],
+              "cubes": [
+                {
+                  "origin": [-0.75, -3.2, -2],
+                  "size": [1.5, 0.8, 2],
+                  "uv": [0, 35],
+                  "inflate": 0
+                }
+              ]
+            },
+            {
+              "name": "LugRear",
+              "origin": [0, -2.8, 4],
+              "cubes": [
+                {
+                  "origin": [-0.75, -3.2, 4],
+                  "size": [1.5, 0.8, 2],
+                  "uv": [0, 35],
+                  "inflate": 0
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "TailFins",
+      "origin": [0, 0, 9],
+      "children": [
+        {
+          "name": "FinRoot1",
+          "origin": [0, 0, 0],
+          "cubes": [
+            {
+              "origin": [-0.4, -4, 9],
+              "size": [0.8, 5, 3],
+              "uv": [0, 40],
+              "inflate": 0
+            }
+          ]
+        },
+        {
+          "name": "FinTip1",
+          "origin": [0, -4, 12],
+          "cubes": [
+            {
+              "origin": [-0.3, -5, 12],
+              "size": [0.6, 3, 2],
+              "uv": [8, 40],
+              "inflate": 0
+            }
+          ]
+        },
+        {
+          "name": "FinRoot2",
+          "origin": [0, 0, 0],
+          "cubes": [
+            {
+              "origin": [-0.4, -4, 9],
+              "size": [0.8, 5, 3],
+              "uv": [0, 40],
+              "inflate": 0
+            }
+          ],
+          "rotation": [0, 90, 0]
+        },
+        {
+          "name": "FinTip2",
+          "origin": [0, -4, 12],
+          "cubes": [
+            {
+              "origin": [-0.3, -5, 12],
+              "size": [0.6, 3, 2],
+              "uv": [8, 40],
+              "inflate": 0
+            }
+          ],
+          "rotation": [0, 90, 0]
+        },
+        {
+          "name": "FinRoot3",
+          "origin": [0, 0, 0],
+          "cubes": [
+            {
+              "origin": [-0.4, -4, 9],
+              "size": [0.8, 5, 3],
+              "uv": [0, 40],
+              "inflate": 0
+            }
+          ],
+          "rotation": [0, 180, 0]
+        },
+        {
+          "name": "FinTip3",
+          "origin": [0, -4, 12],
+          "cubes": [
+            {
+              "origin": [-0.3, -5, 12],
+              "size": [0.6, 3, 2],
+              "uv": [8, 40],
+              "inflate": 0
+            }
+          ],
+          "rotation": [0, 180, 0]
+        },
+        {
+          "name": "FinRoot4",
+          "origin": [0, 0, 0],
+          "cubes": [
+            {
+              "origin": [-0.4, -4, 9],
+              "size": [0.8, 5, 3],
+              "uv": [0, 40],
+              "inflate": 0
+            }
+          ],
+          "rotation": [0, 270, 0]
+        },
+        {
+          "name": "FinTip4",
+          "origin": [0, -4, 12],
+          "cubes": [
+            {
+              "origin": [-0.3, -5, 12],
+              "size": [0.6, 3, 2],
+              "uv": [8, 40],
+              "inflate": 0
+            }
+          ],
+          "rotation": [0, 270, 0]
+        }
+      ]
+    },
+    {
+      "name": "SnakeyeRetarder",
+      "origin": [0, 0, 11],
+      "children": [
+        {
+          "name": "PetalBase1",
+          "origin": [0, 0, 0],
+          "cubes": [
+            {
+              "origin": [-3.5, -0.3, 11],
+              "size": [7, 0.6, 2],
+              "uv": [0, 50],
+              "inflate": 0
+            }
+          ]
+        },
+        {
+          "name": "Petal1",
+          "origin": [0, 0, 13],
+          "cubes": [
+            {
+              "origin": [-5, -0.4, 13],
+              "size": [10, 0.8, 8],
+              "uv": [0, 53],
+              "inflate": 0
+            }
+          ]
+        },
+        {
+          "name": "PetalBase2",
+          "origin": [0, 0, 0],
+          "cubes": [
+            {
+              "origin": [-3.5, -0.3, 11],
+              "size": [7, 0.6, 2],
+              "uv": [0, 50],
+              "inflate": 0
+            }
+          ],
+          "rotation": [0, 90, 0]
+        },
+        {
+          "name": "Petal2",
+          "origin": [0, 0, 13],
+          "cubes": [
+            {
+              "origin": [-5, -0.4, 13],
+              "size": [10, 0.8, 8],
+              "uv": [0, 53],
+              "inflate": 0
+            }
+          ],
+          "rotation": [0, 90, 0]
+        },
+        {
+          "name": "PetalBase3",
+          "origin": [0, 0, 0],
+          "cubes": [
+            {
+              "origin": [-3.5, -0.3, 11],
+              "size": [7, 0.6, 2],
+              "uv": [0, 50],
+              "inflate": 0
+            }
+          ],
+          "rotation": [0, 180, 0]
+        },
+        {
+          "name": "Petal3",
+          "origin": [0, 0, 13],
+          "cubes": [
+            {
+              "origin": [-5, -0.4, 13],
+              "size": [10, 0.8, 8],
+              "uv": [0, 53],
+              "inflate": 0
+            }
+          ],
+          "rotation": [0, 180, 0]
+        },
+        {
+          "name": "PetalBase4",
+          "origin": [0, 0, 0],
+          "cubes": [
+            {
+              "origin": [-3.5, -0.3, 11],
+              "size": [7, 0.6, 2],
+              "uv": [0, 50],
+              "inflate": 0
+            }
+          ],
+          "rotation": [0, 270, 0]
+        },
+        {
+          "name": "Petal4",
+          "origin": [0, 0, 13],
+          "cubes": [
+            {
+              "origin": [-5, -0.4, 13],
+              "size": [10, 0.8, 8],
+              "uv": [0, 53],
+              "inflate": 0
+            }
+          ],
+          "rotation": [0, 270, 0]
+        }
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "name": "mk82_body",
+      "path": "textures/entity/bombs/mk82/mk82_body.png"
+    },
+    {
+      "name": "mk82_fins",
+      "path": "textures/entity/bombs/mk82/mk82_fins.png"
+    },
+    {
+      "name": "mk82_snakeye",
+      "path": "textures/entity/bombs/mk82/mk82_snakeye.png"
+    },
+    {
+      "name": "mk82_lugs",
+      "path": "textures/entity/bombs/mk82/mk82_lugs.png"
+    }
+  ],
+  "display": {
+    "gui": {
+      "rotation": [0, 45, 0],
+      "translation": [0, 0, 0],
+      "scale": 2.0
+    },
+    "ground": {
+      "rotation": [0, 0, 0],
+      "translation": [0, 0, 0],
+      "scale": 1.0
+    },
+    "fixed": {
+      "rotation": [0, 0, 0],
+      "translation": [0, 0, 0],
+      "scale": 1.5
+    },
+    "firstperson_righthand": {
+      "rotation": [0, 0, 0],
+      "translation": [0, 0, 0],
+      "scale": 1.2
+    },
+    "thirdperson_righthand": {
+      "rotation": [0, 0, 0],
+      "translation": [0, 0, 0],
+      "scale": 1.0
+    }
+  },
+  "animations": {
+    "fin_deploy": {
+      "loop": false,
+      "bones": {
+        "FinRoot1": { "rotation": [{"pre": "query.fin_deploy * 90"}, 0, 0] },
+        "FinTip1": { "rotation": [{"pre": "query.fin_deploy * 90"}, 0, 0] },
+        "FinRoot2": { "rotation": [{"pre": "query.fin_deploy * 90"}, 90, 0] },
+        "FinTip2": { "rotation": [{"pre": "query.fin_deploy * 90"}, 90, 0] },
+        "FinRoot3": { "rotation": [{"pre": "query.fin_deploy * 90"}, 180, 0] },
+        "FinTip3": { "rotation": [{"pre": "query.fin_deploy * 90"}, 180, 0] },
+        "FinRoot4": { "rotation": [{"pre": "query.fin_deploy * 90"}, 270, 0] },
+        "FinTip4": { "rotation": [{"pre": "query.fin_deploy * 90"}, 270, 0] }
+      }
+    },
+    "snakeye_deploy": {
+      "loop": false,
+      "bones": {
+        "PetalBase1": { "rotation": [{"pre": "query.snakeye_deploy * -90"}, 0, 0] },
+        "Petal1": { "rotation": [{"pre": "query.snakeye_deploy * -90"}, 0, 0] },
+        "PetalBase2": { "rotation": [{"pre": "query.snakeye_deploy * -90"}, 90, 0] },
+        "Petal2": { "rotation": [{"pre": "query.snakeye_deploy * -90"}, 90, 0] },
+        "PetalBase3": { "rotation": [{"pre": "query.snakeye_deploy * -90"}, 180, 0] },
+        "Petal3": { "rotation": [{"pre": "query.snakeye_deploy * -90"}, 180, 0] },
+        "PetalBase4": { "rotation": [{"pre": "query.snakeye_deploy * -90"}, 270, 0] },
+        "Petal4": { "rotation": [{"pre": "query.snakeye_deploy * -90"}, 270, 0] }
+      }
+    }
+  }
+}

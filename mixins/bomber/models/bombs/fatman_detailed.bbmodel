@@ -1,0 +1,301 @@
+{
+  "format_version": "1.23.0",
+  "name": "Fat Man (21 kt Implosion Fission) - Detailed",
+  "texture_width": 1024,
+  "texture_height": 1024,
+  "visible_bounds_width": 24,
+  "visible_bounds_height": 24,
+  "visible_bounds_depth": 40,
+  "groups": [
+    {
+      "name": "BombBody",
+      "origin": [0, 0, 0],
+      "children": [
+        {
+          "name": "NoseSection",
+          "origin": [0, 0, -20],
+          "cubes": [
+            {
+              "origin": [-11, -11, -20],
+              "size": [22, 22, 8],
+              "uv": [0, 0],
+              "inflate": 0
+            },
+            {
+              "origin": [-10, -10, -18],
+              "size": [20, 20, 6],
+              "uv": [88, 0],
+              "inflate": 0.1
+            },
+            {
+              "origin": [-9, -9, -16],
+              "size": [18, 18, 5],
+              "uv": [168, 0],
+              "inflate": 0.2
+            },
+            {
+              "origin": [-8, -8, -14],
+              "size": [16, 16, 5],
+              "uv": [240, 0],
+              "inflate": 0.3
+            }
+          ]
+        },
+        {
+          "name": "ImplosionLens",
+          "origin": [0, 0, -12],
+          "cubes": [
+            {
+              "origin": [-12, -12, -12],
+              "size": [24, 24, 24],
+              "uv": [0, 30],
+              "inflate": 0
+            },
+            {
+              "origin": [-11, -11, -11],
+              "size": [22, 22, 22],
+              "uv": [96, 30],
+              "inflate": 0.1
+            },
+            {
+              "origin": [-10, -10, -10],
+              "size": [20, 20, 20],
+              "uv": [184, 30],
+              "inflate": 0.2
+            }
+          ]
+        },
+        {
+          "name": "CoreAssembly",
+          "origin": [0, 0, 0],
+          "cubes": [
+            {
+              "origin": [-6, -6, -6],
+              "size": [12, 12, 12],
+              "uv": [0, 78],
+              "inflate": 0
+            },
+            {
+              "origin": [-5, -5, -5],
+              "size": [10, 10, 10],
+              "uv": [48, 78],
+              "inflate": 0.1
+            }
+          ]
+        },
+        {
+          "name": "AftSection",
+          "origin": [0, 0, 12],
+          "cubes": [
+            {
+              "origin": [-11, -11, 12],
+              "size": [22, 22, 10],
+              "uv": [0, 102],
+              "inflate": 0
+            },
+            {
+              "origin": [-10, -10, 22],
+              "size": [20, 20, 8],
+              "uv": [88, 102],
+              "inflate": 0.1
+            }
+          ]
+        },
+        {
+          "name": "Lugs",
+          "origin": [0, 0, -10],
+          "children": [
+            {
+              "name": "LugFront",
+              "origin": [0, -12, -10],
+              "cubes": [
+                {
+                  "origin": [-1.5, -13, -10],
+                  "size": [3, 2, 6],
+                  "uv": [0, 125],
+                  "inflate": 0
+                }
+              ]
+            },
+            {
+              "name": "LugRear",
+              "origin": [0, -12, 10],
+              "cubes": [
+                {
+                  "origin": [-1.5, -13, 10],
+                  "size": [3, 2, 6],
+                  "uv": [0, 125],
+                  "inflate": 0
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "TailFins",
+      "origin": [0, 0, 22],
+      "children": [
+        {
+          "name": "FinRoot1",
+          "origin": [0, 0, 0],
+          "cubes": [
+            {
+              "origin": [-1.5, -14, 22],
+              "size": [3, 16, 10],
+              "uv": [0, 145],
+              "inflate": 0
+            }
+          ]
+        },
+        {
+          "name": "FinTip1",
+          "origin": [0, -14, 32],
+          "cubes": [
+            {
+              "origin": [-1.2, -16, 32],
+              "size": [2.4, 6, 8],
+              "uv": [24, 145],
+              "inflate": 0
+            }
+          ]
+        },
+        {
+          "name": "FinRoot2",
+          "origin": [0, 0, 0],
+          "cubes": [
+            {
+              "origin": [-1.5, -14, 22],
+              "size": [3, 16, 10],
+              "uv": [0, 145],
+              "inflate": 0
+            }
+          ],
+          "rotation": [0, 90, 0]
+        },
+        {
+          "name": "FinTip2",
+          "origin": [0, -14, 32],
+          "cubes": [
+            {
+              "origin": [-1.2, -16, 32],
+              "size": [2.4, 6, 8],
+              "uv": [24, 145],
+              "inflate": 0
+            }
+          ],
+          "rotation": [0, 90, 0]
+        },
+        {
+          "name": "FinRoot3",
+          "origin": [0, 0, 0],
+          "cubes": [
+            {
+              "origin": [-1.5, -14, 22],
+              "size": [3, 16, 10],
+              "uv": [0, 145],
+              "inflate": 0
+            }
+          ],
+          "rotation": [0, 180, 0]
+        },
+        {
+          "name": "FinTip3",
+          "origin": [0, -14, 32],
+          "cubes": [
+            {
+              "origin": [-1.2, -16, 32],
+              "size": [2.4, 6, 8],
+              "uv": [24, 145],
+              "inflate": 0
+            }
+          ],
+          "rotation": [0, 180, 0]
+        },
+        {
+          "name": "FinRoot4",
+          "origin": [0, 0, 0],
+          "cubes": [
+            {
+              "origin": [-1.5, -14, 22],
+              "size": [3, 16, 10],
+              "uv": [0, 145],
+              "inflate": 0
+            }
+          ],
+          "rotation": [0, 270, 0]
+        },
+        {
+          "name": "FinTip4",
+          "origin": [0, -14, 32],
+          "cubes": [
+            {
+              "origin": [-1.2, -16, 32],
+              "size": [2.4, 6, 8],
+              "uv": [24, 145],
+              "inflate": 0
+            }
+          ],
+          "rotation": [0, 270, 0]
+        }
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "name": "fatman_body",
+      "path": "textures/entity/bombs/fatman/fatman_body.png"
+    },
+    {
+      "name": "fatman_fins",
+      "path": "textures/entity/bombs/fatman/fatman_fins.png"
+    },
+    {
+      "name": "fatman_lugs",
+      "path": "textures/entity/bombs/fatman/fatman_lugs.png"
+    }
+  ],
+  "display": {
+    "gui": {
+      "rotation": [0, 45, 0],
+      "translation": [0, 0, 0],
+      "scale": 0.7
+    },
+    "ground": {
+      "rotation": [0, 0, 0],
+      "translation": [0, 0, 0],
+      "scale": 0.35
+    },
+    "fixed": {
+      "rotation": [0, 0, 0],
+      "translation": [0, 0, 0],
+      "scale": 0.6
+    },
+    "firstperson_righthand": {
+      "rotation": [0, 0, 0],
+      "translation": [0, 0, 0],
+      "scale": 0.5
+    },
+    "thirdperson_righthand": {
+      "rotation": [0, 0, 0],
+      "translation": [0, 0, 0],
+      "scale": 0.35
+    }
+  },
+  "animations": {
+    "fin_deploy": {
+      "loop": false,
+      "bones": {
+        "FinRoot1": { "rotation": [{"pre": "query.fin_deploy * 90"}, 0, 0] },
+        "FinTip1": { "rotation": [{"pre": "query.fin_deploy * 90"}, 0, 0] },
+        "FinRoot2": { "rotation": [{"pre": "query.fin_deploy * 90"}, 90, 0] },
+        "FinTip2": { "rotation": [{"pre": "query.fin_deploy * 90"}, 90, 0] },
+        "FinRoot3": { "rotation": [{"pre": "query.fin_deploy * 90"}, 180, 0] },
+        "FinTip3": { "rotation": [{"pre": "query.fin_deploy * 90"}, 180, 0] },
+        "FinRoot4": { "rotation": [{"pre": "query.fin_deploy * 90"}, 270, 0] },
+        "FinTip4": { "rotation": [{"pre": "query.fin_deploy * 90"}, 270, 0] }
+      }
+    }
+  }
+}

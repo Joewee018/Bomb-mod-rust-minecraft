@@ -1,0 +1,441 @@
+{
+  "format_version": "1.23.0",
+  "name": "Tsar Bomba (50 Mt Thermonuclear) - Detailed",
+  "texture_width": 2048,
+  "texture_height": 2048,
+  "visible_bounds_width": 30,
+  "visible_bounds_height": 30,
+  "visible_bounds_depth": 70,
+  "groups": [
+    {
+      "name": "BombBody",
+      "origin": [0, 0, 0],
+      "children": [
+        {
+          "name": "NoseSection",
+          "origin": [0, 0, -35],
+          "cubes": [
+            {
+              "origin": [-14, -14, -35],
+              "size": [28, 28, 10],
+              "uv": [0, 0],
+              "inflate": 0
+            },
+            {
+              "origin": [-13, -13, -33],
+              "size": [26, 26, 8],
+              "uv": [112, 0],
+              "inflate": 0.1
+            },
+            {
+              "origin": [-12, -12, -31],
+              "size": [24, 24, 7],
+              "uv": [216, 0],
+              "inflate": 0.2
+            },
+            {
+              "origin": [-11, -11, -29],
+              "size": [22, 22, 6],
+              "uv": [312, 0],
+              "inflate": 0.3
+            }
+          ]
+        },
+        {
+          "name": "PrimaryStage",
+          "origin": [0, 0, -25],
+          "cubes": [
+            {
+              "origin": [-15, -15, -25],
+              "size": [30, 30, 20],
+              "uv": [0, 50],
+              "inflate": 0
+            },
+            {
+              "origin": [-14, -14, -23],
+              "size": [28, 28, 16],
+              "uv": [120, 50],
+              "inflate": 0.1
+            },
+            {
+              "origin": [-13, -13, -21],
+              "size": [26, 26, 12],
+              "uv": [232, 50],
+              "inflate": 0.2
+            }
+          ]
+        },
+        {
+          "name": "SecondaryStage",
+          "origin": [0, 0, -5],
+          "cubes": [
+            {
+              "origin": [-14, -14, -5],
+              "size": [28, 28, 30],
+              "uv": [0, 100],
+              "inflate": 0
+            },
+            {
+              "origin": [-13, -13, -3],
+              "size": [26, 26, 26],
+              "uv": [112, 100],
+              "inflate": 0.1
+            },
+            {
+              "origin": [-12, -12, -1],
+              "size": [24, 24, 22],
+              "uv": [216, 100],
+              "inflate": 0.2
+            }
+          ]
+        },
+        {
+          "name": "RadiationCase",
+          "origin": [0, 0, 25],
+          "cubes": [
+            {
+              "origin": [-15, -15, 25],
+              "size": [30, 30, 15],
+              "uv": [0, 160],
+              "inflate": 0
+            },
+            {
+              "origin": [-14, -14, 27],
+              "size": [28, 28, 11],
+              "uv": [120, 160],
+              "inflate": 0.1
+            }
+          ]
+        },
+        {
+          "name": "AftSection",
+          "origin": [0, 0, 40],
+          "cubes": [
+            {
+              "origin": [-14, -14, 40],
+              "size": [28, 28, 10],
+              "uv": [0, 205],
+              "inflate": 0
+            },
+            {
+              "origin": [-13, -13, 50],
+              "size": [26, 26, 8],
+              "uv": [112, 205],
+              "inflate": 0.1
+            },
+            {
+              "origin": [-12, -12, 58],
+              "size": [24, 24, 6],
+              "uv": [216, 205],
+              "inflate": 0.2
+            }
+          ]
+        },
+        {
+          "name": "Lugs",
+          "origin": [0, 0, -20],
+          "children": [
+            {
+              "name": "LugFront1",
+              "origin": [-7, -15, -20],
+              "cubes": [
+                {
+                  "origin": [-7, -16, -20],
+                  "size": [4, 2, 8],
+                  "uv": [0, 240],
+                  "inflate": 0
+                }
+              ]
+            },
+            {
+              "name": "LugFront2",
+              "origin": [7, -15, -20],
+              "cubes": [
+                {
+                  "origin": [3, -16, -20],
+                  "size": [4, 2, 8],
+                  "uv": [0, 240],
+                  "inflate": 0
+                }
+              ]
+            },
+            {
+              "name": "LugRear1",
+              "origin": [-7, -15, 30],
+              "cubes": [
+                {
+                  "origin": [-7, -16, 30],
+                  "size": [4, 2, 8],
+                  "uv": [0, 240],
+                  "inflate": 0
+                }
+              ]
+            },
+            {
+              "name": "LugRear2",
+              "origin": [7, -15, 30],
+              "cubes": [
+                {
+                  "origin": [3, -16, 30],
+                  "size": [4, 2, 8],
+                  "uv": [0, 240],
+                  "inflate": 0
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "TailFins",
+      "origin": [0, 0, 48],
+      "children": [
+        {
+          "name": "FinRoot1",
+          "origin": [0, 0, 0],
+          "cubes": [
+            {
+              "origin": [-1.5, -18, 48],
+              "size": [3, 20, 10],
+              "uv": [0, 260],
+              "inflate": 0
+            }
+          ]
+        },
+        {
+          "name": "FinTip1",
+          "origin": [0, -18, 58],
+          "cubes": [
+            {
+              "origin": [-1.2, -20, 58],
+              "size": [2.4, 6, 8],
+              "uv": [20, 260],
+              "inflate": 0
+            }
+          ]
+        },
+        {
+          "name": "FinRoot2",
+          "origin": [0, 0, 0],
+          "cubes": [
+            {
+              "origin": [-1.5, -18, 48],
+              "size": [3, 20, 10],
+              "uv": [0, 260],
+              "inflate": 0
+            }
+          ],
+          "rotation": [0, 90, 0]
+        },
+        {
+          "name": "FinTip2",
+          "origin": [0, -18, 58],
+          "cubes": [
+            {
+              "origin": [-1.2, -20, 58],
+              "size": [2.4, 6, 8],
+              "uv": [20, 260],
+              "inflate": 0
+            }
+          ],
+          "rotation": [0, 90, 0]
+        },
+        {
+          "name": "FinRoot3",
+          "origin": [0, 0, 0],
+          "cubes": [
+            {
+              "origin": [-1.5, -18, 48],
+              "size": [3, 20, 10],
+              "uv": [0, 260],
+              "inflate": 0
+            }
+          ],
+          "rotation": [0, 180, 0]
+        },
+        {
+          "name": "FinTip3",
+          "origin": [0, -18, 58],
+          "cubes": [
+            {
+              "origin": [-1.2, -20, 58],
+              "size": [2.4, 6, 8],
+              "uv": [20, 260],
+              "inflate": 0
+            }
+          ],
+          "rotation": [0, 180, 0]
+        },
+        {
+          "name": "FinRoot4",
+          "origin": [0, 0, 0],
+          "cubes": [
+            {
+              "origin": [-1.5, -18, 48],
+              "size": [3, 20, 10],
+              "uv": [0, 260],
+              "inflate": 0
+            }
+          ],
+          "rotation": [0, 270, 0]
+        },
+        {
+          "name": "FinTip4",
+          "origin": [0, -18, 58],
+          "cubes": [
+            {
+              "origin": [-1.2, -20, 58],
+              "size": [2.4, 6, 8],
+              "uv": [20, 260],
+              "inflate": 0
+            }
+          ],
+          "rotation": [0, 270, 0]
+        }
+      ]
+    },
+    {
+      "name": "ParachuteSystem",
+      "origin": [0, 0, -35],
+      "children": [
+        {
+          "name": "ChuteCanopy",
+          "origin": [0, 0, 0],
+          "cubes": [
+            {
+              "origin": [-30, 20, -35],
+              "size": [60, 50, 1],
+              "uv": [0, 280],
+              "inflate": 0
+            }
+          ]
+        },
+        {
+          "name": "ChuteRisers",
+          "origin": [0, 0, 0],
+          "children": [
+            {
+              "name": "Riser1",
+              "origin": [-24, 30, -35],
+              "cubes": [
+                {
+                  "origin": [-24, 10, -35],
+                  "size": [1, 20, 1],
+                  "uv": [122, 280],
+                  "inflate": 0
+                }
+              ]
+            },
+            {
+              "name": "Riser2",
+              "origin": [24, 30, -35],
+              "cubes": [
+                {
+                  "origin": [23, 10, -35],
+                  "size": [1, 20, 1],
+                  "uv": [122, 280],
+                  "inflate": 0
+                }
+              ]
+            },
+            {
+              "name": "Riser3",
+              "origin": [-24, -30, -35],
+              "cubes": [
+                {
+                  "origin": [-24, 10, -35],
+                  "size": [1, 20, 1],
+                  "uv": [122, 280],
+                  "inflate": 0
+                }
+              ]
+            },
+            {
+              "name": "Riser4",
+              "origin": [24, -30, -35],
+              "cubes": [
+                {
+                  "origin": [23, 10, -35],
+                  "size": [1, 20, 1],
+                  "uv": [122, 280],
+                  "inflate": 0
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "name": "tsarbomba_body",
+      "path": "textures/entity/bombs/tsarbomba/tsarbomba_body.png"
+    },
+    {
+      "name": "tsarbomba_fins",
+      "path": "textures/entity/bombs/tsarbomba/tsarbomba_fins.png"
+    },
+    {
+      "name": "tsarbomba_chute",
+      "path": "textures/entity/bombs/tsarbomba/tsarbomba_chute.png"
+    },
+    {
+      "name": "tsarbomba_lugs",
+      "path": "textures/entity/bombs/tsarbomba/tsarbomba_lugs.png"
+    }
+  ],
+  "display": {
+    "gui": {
+      "rotation": [0, 45, 0],
+      "translation": [0, 0, 0],
+      "scale": 0.5
+    },
+    "ground": {
+      "rotation": [0, 0, 0],
+      "translation": [0, 0, 0],
+      "scale": 0.25
+    },
+    "fixed": {
+      "rotation": [0, 0, 0],
+      "translation": [0, 0, 0],
+      "scale": 0.4
+    },
+    "firstperson_righthand": {
+      "rotation": [0, 0, 0],
+      "translation": [0, 0, 0],
+      "scale": 0.3
+    },
+    "thirdperson_righthand": {
+      "rotation": [0, 0, 0],
+      "translation": [0, 0, 0],
+      "scale": 0.25
+    }
+  },
+  "animations": {
+    "fin_deploy": {
+      "loop": false,
+      "bones": {
+        "FinRoot1": { "rotation": [{"pre": "query.fin_deploy * 90"}, 0, 0] },
+        "FinTip1": { "rotation": [{"pre": "query.fin_deploy * 90"}, 0, 0] },
+        "FinRoot2": { "rotation": [{"pre": "query.fin_deploy * 90"}, 90, 0] },
+        "FinTip2": { "rotation": [{"pre": "query.fin_deploy * 90"}, 90, 0] },
+        "FinRoot3": { "rotation": [{"pre": "query.fin_deploy * 90"}, 180, 0] },
+        "FinTip3": { "rotation": [{"pre": "query.fin_deploy * 90"}, 180, 0] },
+        "FinRoot4": { "rotation": [{"pre": "query.fin_deploy * 90"}, 270, 0] },
+        "FinTip4": { "rotation": [{"pre": "query.fin_deploy * 90"}, 270, 0] }
+      }
+    },
+    "parachute_deploy": {
+      "loop": false,
+      "bones": {
+        "ChuteCanopy": { "scale": [{"pre": "query.chute_deploy"}, {"pre": "query.chute_deploy"}, 1] },
+        "Riser1": { "rotation": [{"pre": "query.chute_deploy * -90"}, 0, 0] },
+        "Riser2": { "rotation": [{"pre": "query.chute_deploy * -90"}, 0, 0] },
+        "Riser3": { "rotation": [{"pre": "query.chute_deploy * -90"}, 0, 0] },
+        "Riser4": { "rotation": [{"pre": "query.chute_deploy * -90"}, 0, 0] }
+      }
+    }
+  }
+}

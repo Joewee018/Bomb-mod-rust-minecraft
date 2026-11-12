@@ -1,0 +1,271 @@
+{
+  "format_version": "1.23.0",
+  "name": "Mk 81 Bomb (250 lb) - Detailed",
+  "texture_width": 512,
+  "texture_height": 512,
+  "visible_bounds_width": 5,
+  "visible_bounds_height": 5,
+  "visible_bounds_depth": 10,
+  "groups": [
+    {
+      "name": "BombBody",
+      "origin": [0, 0, 0],
+      "children": [
+        {
+          "name": "NoseSection",
+          "origin": [0, 0, -5],
+          "cubes": [
+            {
+              "origin": [-2, -2, -5],
+              "size": [4, 4, 2],
+              "uv": [0, 0],
+              "inflate": 0
+            },
+            {
+              "origin": [-1.5, -1.5, -4],
+              "size": [3, 3, 2],
+              "uv": [16, 0],
+              "inflate": 0.1
+            },
+            {
+              "origin": [-1, -1, -3],
+              "size": [2, 2, 2],
+              "uv": [28, 0],
+              "inflate": 0.2
+            }
+          ]
+        },
+        {
+          "name": "MainBody",
+          "origin": [0, 0, -3],
+          "cubes": [
+            {
+              "origin": [-2.2, -2.2, -3],
+              "size": [4.4, 4.4, 7],
+              "uv": [0, 8],
+              "inflate": 0
+            },
+            {
+              "origin": [-2, -2, -3],
+              "size": [4, 4, 7],
+              "uv": [18, 8],
+              "inflate": 0.1
+            }
+          ]
+        },
+        {
+          "name": "TailSection",
+          "origin": [0, 0, 4],
+          "cubes": [
+            {
+              "origin": [-2, -2, 4],
+              "size": [4, 4, 2],
+              "uv": [0, 22],
+              "inflate": 0
+            },
+            {
+              "origin": [-1.5, -1.5, 6],
+              "size": [3, 3, 2],
+              "uv": [16, 22],
+              "inflate": 0.1
+            }
+          ]
+        },
+        {
+          "name": "Lugs",
+          "origin": [0, 0, -1],
+          "children": [
+            {
+              "name": "LugFront",
+              "origin": [0, -2.2, -1],
+              "cubes": [
+                {
+                  "origin": [-0.6, -2.6, -1],
+                  "size": [1.2, 0.8, 1.5],
+                  "uv": [0, 30],
+                  "inflate": 0
+                }
+              ]
+            },
+            {
+              "name": "LugRear",
+              "origin": [0, -2.2, 3],
+              "cubes": [
+                {
+                  "origin": [-0.6, -2.6, 3],
+                  "size": [1.2, 0.8, 1.5],
+                  "uv": [0, 30],
+                  "inflate": 0
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "TailFins",
+      "origin": [0, 0, 6],
+      "children": [
+        {
+          "name": "FinRoot1",
+          "origin": [0, 0, 0],
+          "cubes": [
+            {
+              "origin": [-0.3, -3.5, 6],
+              "size": [0.6, 4, 2.5],
+              "uv": [0, 35],
+              "inflate": 0
+            }
+          ]
+        },
+        {
+          "name": "FinTip1",
+          "origin": [0, -3.5, 8.5],
+          "cubes": [
+            {
+              "origin": [-0.25, -4, 8.5],
+              "size": [0.5, 2, 1.5],
+              "uv": [6, 35],
+              "inflate": 0
+            }
+          ]
+        },
+        {
+          "name": "FinRoot2",
+          "origin": [0, 0, 0],
+          "cubes": [
+            {
+              "origin": [-0.3, -3.5, 6],
+              "size": [0.6, 4, 2.5],
+              "uv": [0, 35],
+              "inflate": 0
+            }
+          ],
+          "rotation": [0, 90, 0]
+        },
+        {
+          "name": "FinTip2",
+          "origin": [0, -3.5, 8.5],
+          "cubes": [
+            {
+              "origin": [-0.25, -4, 8.5],
+              "size": [0.5, 2, 1.5],
+              "uv": [6, 35],
+              "inflate": 0
+            }
+          ],
+          "rotation": [0, 90, 0]
+        },
+        {
+          "name": "FinRoot3",
+          "origin": [0, 0, 0],
+          "cubes": [
+            {
+              "origin": [-0.3, -3.5, 6],
+              "size": [0.6, 4, 2.5],
+              "uv": [0, 35],
+              "inflate": 0
+            }
+          ],
+          "rotation": [0, 180, 0]
+        },
+        {
+          "name": "FinTip3",
+          "origin": [0, -3.5, 8.5],
+          "cubes": [
+            {
+              "origin": [-0.25, -4, 8.5],
+              "size": [0.5, 2, 1.5],
+              "uv": [6, 35],
+              "inflate": 0
+            }
+          ],
+          "rotation": [0, 180, 0]
+        },
+        {
+          "name": "FinRoot4",
+          "origin": [0, 0, 0],
+          "cubes": [
+            {
+              "origin": [-0.3, -3.5, 6],
+              "size": [0.6, 4, 2.5],
+              "uv": [0, 35],
+              "inflate": 0
+            }
+          ],
+          "rotation": [0, 270, 0]
+        },
+        {
+          "name": "FinTip4",
+          "origin": [0, -3.5, 8.5],
+          "cubes": [
+            {
+              "origin": [-0.25, -4, 8.5],
+              "size": [0.5, 2, 1.5],
+              "uv": [6, 35],
+              "inflate": 0
+            }
+          ],
+          "rotation": [0, 270, 0]
+        }
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "name": "mk81_body",
+      "path": "textures/entity/bombs/mk81/mk81_body.png"
+    },
+    {
+      "name": "mk81_fins",
+      "path": "textures/entity/bombs/mk81/mk81_fins.png"
+    },
+    {
+      "name": "mk81_lugs",
+      "path": "textures/entity/bombs/mk81/mk81_lugs.png"
+    }
+  ],
+  "display": {
+    "gui": {
+      "rotation": [0, 45, 0],
+      "translation": [0, 0, 0],
+      "scale": 2.5
+    },
+    "ground": {
+      "rotation": [0, 0, 0],
+      "translation": [0, 0, 0],
+      "scale": 1.2
+    },
+    "fixed": {
+      "rotation": [0, 0, 0],
+      "translation": [0, 0, 0],
+      "scale": 2.0
+    },
+    "firstperson_righthand": {
+      "rotation": [0, 0, 0],
+      "translation": [0, 0, 0],
+      "scale": 1.5
+    },
+    "thirdperson_righthand": {
+      "rotation": [0, 0, 0],
+      "translation": [0, 0, 0],
+      "scale": 1.2
+    }
+  },
+  "animations": {
+    "fin_deploy": {
+      "loop": false,
+      "bones": {
+        "FinRoot1": { "rotation": [{"pre": "query.fin_deploy * 90"}, 0, 0] },
+        "FinTip1": { "rotation": [{"pre": "query.fin_deploy * 90"}, 0, 0] },
+        "FinRoot2": { "rotation": [{"pre": "query.fin_deploy * 90"}, 90, 0] },
+        "FinTip2": { "rotation": [{"pre": "query.fin_deploy * 90"}, 90, 0] },
+        "FinRoot3": { "rotation": [{"pre": "query.fin_deploy * 90"}, 180, 0] },
+        "FinTip3": { "rotation": [{"pre": "query.fin_deploy * 90"}, 180, 0] },
+        "FinRoot4": { "rotation": [{"pre": "query.fin_deploy * 90"}, 270, 0] },
+        "FinTip4": { "rotation": [{"pre": "query.fin_deploy * 90"}, 270, 0] }
+      }
+    }
+  }
+}

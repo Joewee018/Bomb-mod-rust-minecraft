@@ -1,0 +1,606 @@
+{
+  "format_version": "1.23.0",
+  "name": "B-24 Liberator",
+  "texture_width": 512,
+  "texture_height": 512,
+  "visible_bounds_width": 30,
+  "visible_bounds_height": 12,
+  "visible_bounds_depth": 55,
+  "groups": [
+    {
+      "name": "Fuselage",
+      "origin": [0, 0, 0],
+      "children": [
+        {
+          "name": "Nose",
+          "origin": [0, 0, -26],
+          "cubes": [
+            {
+              "origin": [-4, -4, -26],
+              "size": [8, 8, 10],
+              "uv": [0, 0],
+              "inflate": 0
+            },
+            {
+              "origin": [-3, -3, -22],
+              "size": [6, 6, 6],
+              "uv": [32, 0],
+              "inflate": 0.2
+            }
+          ]
+        },
+        {
+          "name": "Cockpit",
+          "origin": [0, 2, -16],
+          "cubes": [
+            {
+              "origin": [-5, 0, -16],
+              "size": [10, 8, 14],
+              "uv": [0, 20],
+              "inflate": 0
+            },
+            {
+              "origin": [-4, 6, -16],
+              "size": [8, 2, 14],
+              "uv": [44, 20],
+              "inflate": 0.1
+            }
+          ]
+        },
+        {
+          "name": "BombBay",
+          "origin": [0, 0, -2],
+          "cubes": [
+            {
+              "origin": [-6, -6, -2],
+              "size": [12, 8, 24],
+              "uv": [0, 42],
+              "inflate": 0
+            },
+            {
+              "name": "BombBayDoorLeft",
+              "origin": [-6, -6, -2],
+              "size": [6, 8, 24],
+              "uv": [64, 42],
+              "inflate": 0.1,
+              "rotation": [0, 0, 0]
+            },
+            {
+              "name": "BombBayDoorRight",
+              "origin": [0, -6, -2],
+              "size": [6, 8, 24],
+              "uv": [64, 42],
+              "inflate": 0.1,
+              "rotation": [0, 0, 0]
+            }
+          ]
+        },
+        {
+          "name": "TailSection",
+          "origin": [0, 0, 22],
+          "cubes": [
+            {
+              "origin": [-4, -4, 22],
+              "size": [8, 8, 18],
+              "uv": [0, 74],
+              "inflate": 0
+            }
+          ],
+          "children": [
+            {
+              "name": "VerticalStabilizer",
+              "origin": [0, 0, 36],
+              "cubes": [
+                {
+                  "origin": [-1.5, 0, 36],
+                  "size": [3, 14, 10],
+                  "uv": [34, 74],
+                  "inflate": 0
+                }
+              ],
+              "children": [
+                {
+                  "name": "Rudder",
+                  "origin": [0, 0, 46],
+                  "cubes": [
+                    {
+                      "origin": [-2, 0, 46],
+                      "size": [4, 14, 5],
+                      "uv": [56, 74],
+                      "inflate": 0
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "HorizontalStabilizerLeft",
+              "origin": [-14, 0, 32],
+              "cubes": [
+                {
+                  "origin": [-14, -1, 32],
+                  "size": [14, 2, 10],
+                  "uv": [0, 100],
+                  "inflate": 0
+                }
+              ],
+              "children": [
+                {
+                  "name": "ElevatorLeft",
+                  "origin": [-28, 0, 32],
+                  "cubes": [
+                    {
+                      "origin": [-28, -1.5, 32],
+                      "size": [14, 3, 10],
+                      "uv": [48, 100],
+                      "inflate": 0
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "HorizontalStabilizerRight",
+              "origin": [14, 0, 32],
+              "cubes": [
+                {
+                  "origin": [0, -1, 32],
+                  "size": [14, 2, 10],
+                  "uv": [0, 100],
+                  "inflate": 0,
+                  "mirror": true
+                }
+              ],
+              "children": [
+                {
+                  "name": "ElevatorRight",
+                  "origin": [28, 0, 32],
+                  "cubes": [
+                    {
+                      "origin": [14, -1.5, 32],
+                      "size": [14, 3, 10],
+                      "uv": [48, 100],
+                      "inflate": 0,
+                      "mirror": true
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "TailTurret",
+              "origin": [0, -2, 40],
+              "cubes": [
+                {
+                  "origin": [-3, -3, 40],
+                  "size": [6, 6, 8],
+                  "uv": [90, 74],
+                  "inflate": 0
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "HighWing",
+      "origin": [0, 4, 2],
+      "children": [
+        {
+          "name": "WingRootLeft",
+          "origin": [-8, 0, 0],
+          "cubes": [
+            {
+              "origin": [-32, -1, 0],
+              "size": [24, 2, 18],
+              "uv": [0, 116],
+              "inflate": 0
+            }
+          ],
+          "children": [
+            {
+              "name": "WingOuterLeft",
+              "origin": [-32, 0, 6],
+              "cubes": [
+                {
+                  "origin": [-32, -1, 6],
+                  "size": [28, 2, 14],
+                  "uv": [84, 116],
+                  "inflate": 0
+                }
+              ],
+              "children": [
+                {
+                  "name": "AileronLeft",
+                  "origin": [-60, 0, 6],
+                  "cubes": [
+                    {
+                      "origin": [-60, -1.5, 6],
+                      "size": [28, 3, 14],
+                      "uv": [168, 116],
+                      "inflate": 0
+                    }
+                  ]
+                },
+                {
+                  "name": "Engine1Left",
+                  "origin": [-18, -3, -2],
+                  "cubes": [
+                    {
+                      "origin": [-18, -3, -2],
+                      "size": [7, 7, 12],
+                      "uv": [224, 116],
+                      "inflate": 0
+                    }
+                  ],
+                  "children": [
+                    {
+                      "name": "Propeller1Left",
+                      "origin": [-18, 0, -9],
+                      "cubes": [
+                        {
+                          "origin": [-22, -4, -9],
+                          "size": [15, 8, 1],
+                          "uv": [250, 116],
+                          "inflate": 0
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "Engine2Left",
+                  "origin": [-42, -3, -2],
+                  "cubes": [
+                    {
+                      "origin": [-42, -3, -2],
+                      "size": [7, 7, 12],
+                      "uv": [224, 116],
+                      "inflate": 0
+                    }
+                  ],
+                  "children": [
+                    {
+                      "name": "Propeller2Left",
+                      "origin": [-42, 0, -9],
+                      "cubes": [
+                        {
+                          "origin": [-46, -4, -9],
+                          "size": [15, 8, 1],
+                          "uv": [250, 116],
+                          "inflate": 0
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "WingRootRight",
+          "origin": [8, 0, 0],
+          "cubes": [
+            {
+              "origin": [8, -1, 0],
+              "size": [24, 2, 18],
+              "uv": [0, 116],
+              "inflate": 0,
+              "mirror": true
+            }
+          ],
+          "children": [
+            {
+              "name": "WingOuterRight",
+              "origin": [32, 0, 6],
+              "cubes": [
+                {
+                  "origin": [4, -1, 6],
+                  "size": [28, 2, 14],
+                  "uv": [84, 116],
+                  "inflate": 0,
+                  "mirror": true
+                }
+              ],
+              "children": [
+                {
+                  "name": "AileronRight",
+                  "origin": [32, 0, 6],
+                  "cubes": [
+                    {
+                      "origin": [32, -1.5, 6],
+                      "size": [28, 3, 14],
+                      "uv": [168, 116],
+                      "inflate": 0,
+                      "mirror": true
+                    }
+                  ]
+                },
+                {
+                  "name": "Engine1Right",
+                  "origin": [18, -3, -2],
+                  "cubes": [
+                    {
+                      "origin": [11, -3, -2],
+                      "size": [7, 7, 12],
+                      "uv": [224, 116],
+                      "inflate": 0,
+                      "mirror": true
+                    }
+                  ],
+                  "children": [
+                    {
+                      "name": "Propeller1Right",
+                      "origin": [18, 0, -9],
+                      "cubes": [
+                        {
+                          "origin": [7, -4, -9],
+                          "size": [15, 8, 1],
+                          "uv": [250, 116],
+                          "inflate": 0,
+                          "mirror": true
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "Engine2Right",
+                  "origin": [42, -3, -2],
+                  "cubes": [
+                    {
+                      "origin": [35, -3, -2],
+                      "size": [7, 7, 12],
+                      "uv": [224, 116],
+                      "inflate": 0,
+                      "mirror": true
+                    }
+                  ],
+                  "children": [
+                    {
+                      "name": "Propeller2Right",
+                      "origin": [42, 0, -9],
+                      "cubes": [
+                        {
+                          "origin": [31, -4, -9],
+                          "size": [15, 8, 1],
+                          "uv": [250, 116],
+                          "inflate": 0,
+                          "mirror": true
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "LandingGear",
+      "origin": [0, 0, 0],
+      "children": [
+        {
+          "name": "NoseGear",
+          "origin": [0, -8, -20],
+          "cubes": [
+            {
+              "origin": [-1, -12, -20],
+              "size": [2, 4, 2],
+              "uv": [0, 140],
+              "inflate": 0
+            },
+            {
+              "origin": [-1.5, -12, -19],
+              "size": [3, 1, 4],
+              "uv": [10, 140],
+              "inflate": 0
+            }
+          ]
+        },
+        {
+          "name": "MainGearLeft",
+          "origin": [-10, -6, 6],
+          "cubes": [
+            {
+              "origin": [-11, -16, 5],
+              "size": [2, 10, 2],
+              "uv": [20, 140],
+              "inflate": 0
+            },
+            {
+              "origin": [-12, -16, 4],
+              "size": [4, 2, 4],
+              "uv": [32, 140],
+              "inflate": 0
+            }
+          ]
+        },
+        {
+          "name": "MainGearRight",
+          "origin": [10, -6, 6],
+          "cubes": [
+            {
+              "origin": [9, -16, 5],
+              "size": [2, 10, 2],
+              "uv": [20, 140],
+              "inflate": 0,
+              "mirror": true
+            },
+            {
+              "origin": [8, -16, 4],
+              "size": [4, 2, 4],
+              "uv": [32, 140],
+              "inflate": 0,
+              "mirror": true
+            }
+          ]
+        },
+        {
+          "name": "TailWheel",
+          "origin": [0, -6, 38],
+          "cubes": [
+            {
+              "origin": [-1, -6, 38],
+              "size": [2, 4, 2],
+              "uv": [50, 140],
+              "inflate": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "GunnerPositions",
+      "origin": [0, 0, 0],
+      "children": [
+        {
+          "name": "TopTurret",
+          "origin": [0, 6, -4],
+          "cubes": [
+            {
+              "origin": [-3, 4, -7],
+              "size": [6, 4, 6],
+              "uv": [64, 140],
+              "inflate": 0
+            }
+          ]
+        },
+        {
+          "name": "BallTurret",
+          "origin": [0, -10, 6],
+          "cubes": [
+            {
+              "origin": [-4, -12, 4],
+              "size": [8, 4, 8],
+              "uv": [90, 140],
+              "inflate": 0
+            }
+          ]
+        },
+        {
+          "name": "WaistGunLeft",
+          "origin": [-8, 0, 12],
+          "cubes": [
+            {
+              "origin": [-10, -1, 10],
+              "size": [4, 3, 4],
+              "uv": [124, 140],
+              "inflate": 0
+            }
+          ]
+        },
+        {
+          "name": "WaistGunRight",
+          "origin": [8, 0, 12],
+          "cubes": [
+            {
+              "origin": [6, -1, 10],
+              "size": [4, 3, 4],
+              "uv": [124, 140],
+              "inflate": 0,
+              "mirror": true
+            }
+          ]
+        },
+        {
+          "name": "NoseTurret",
+          "origin": [0, 0, -24],
+          "cubes": [
+            {
+              "origin": [-2, -2, -26],
+              "size": [4, 4, 4],
+              "uv": [140, 140],
+              "inflate": 0
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "name": "b24_fuselage",
+      "path": "textures/entity/b24_fuselage.png"
+    },
+    {
+      "name": "b24_wings",
+      "path": "textures/entity/b24_wings.png"
+    },
+    {
+      "name": "b24_engines",
+      "path": "textures/entity/b24_engines.png"
+    },
+    {
+      "name": "b24_detail",
+      "path": "textures/entity/b24_detail.png"
+    }
+  ],
+  "display": {
+    "gui": {
+      "rotation": [30, 45, 0],
+      "translation": [0, -2, 0],
+      "scale": 0.625
+    },
+    "ground": {
+      "rotation": [0, 0, 0],
+      "translation": [0, 0, 0],
+      "scale": 0.25
+    },
+    "fixed": {
+      "rotation": [0, 0, 0],
+      "translation": [0, 0, 0],
+      "scale": 0.5
+    },
+    "firstperson_righthand": {
+      "rotation": [0, 0, 0],
+      "translation": [0, 0, 0],
+      "scale": 0.4
+    },
+    "thirdperson_righthand": {
+      "rotation": [0, 0, 0],
+      "translation": [0, 0, 0],
+      "scale": 0.3
+    }
+  },
+  "animations": {
+    "propellers_spin": {
+      "loop": true,
+      "bones": {
+        "Propeller1Left": { "rotation": [0, 0, {"pre": "time * 720"}] },
+        "Propeller2Left": { "rotation": [0, 0, {"pre": "time * 720"}] },
+        "Propeller1Right": { "rotation": [0, 0, {"pre": "time * 720"}] },
+        "Propeller2Right": { "rotation": [0, 0, {"pre": "time * 720"}] }
+      }
+    },
+    "bomb_bay_open": {
+      "loop": false,
+      "bones": {
+        "BombBayDoorLeft": { "rotation": [0, 0, {"pre": "query.bomb_bay_angle * -90"}] },
+        "BombBayDoorRight": { "rotation": [0, 0, {"pre": "query.bomb_bay_angle * 90"}] }
+      }
+    },
+    "control_surfaces": {
+      "loop": true,
+      "bones": {
+        "Rudder": { "rotation": [0, {"pre": "query.yaw * 30"}, 0] },
+        "ElevatorLeft": { "rotation": [{"pre": "query.pitch * 20"}, 0, 0] },
+        "ElevatorRight": { "rotation": [{"pre": "query.pitch * 20"}, 0, 0] },
+        "AileronLeft": { "rotation": [{"pre": "query.roll * 25"}, 0, 0] },
+        "AileronRight": { "rotation": [{"pre": "query.roll * -25"}, 0, 0] }
+      }
+    },
+    "landing_gear_retract": {
+      "loop": false,
+      "bones": {
+        "NoseGear": { "rotation": [{"pre": "query.gear_angle * -90"}, 0, 0] },
+        "MainGearLeft": { "rotation": [{"pre": "query.gear_angle * -90"}, 0, 0] },
+        "MainGearRight": { "rotation": [{"pre": "query.gear_angle * -90"}, 0, 0] }
+      }
+    }
+  }
+}

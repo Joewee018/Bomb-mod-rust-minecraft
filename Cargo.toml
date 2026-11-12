@@ -1,0 +1,35 @@
+[package]
+name = "bomber-mod"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+crate-type = ["cdylib", "rlib"]
+name = "bomber"
+
+[dependencies]
+# Horizon's crates are available at build time via the launcher
+# We only declare std dependencies here; Horizon crates are linked by the build system
+
+# For physics & math
+nalgebra = { version = "0.32", features = ["serde"] }
+rand = { version = "0.8", features = ["small_rng"] }
+rand_distr = "0.4"
+fastrand = "2.0"
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+thiserror = "1.0"
+
+# For configuration
+toml = "0.8"
+
+# For async (if needed)
+tokio = { version = "1.0", features = ["rt-multi-thread", "macros"] }
+
+# For UI layout calculations
+euclid = "0.23"
+
+[profile.release]
+lto = true
+codegen-units = 1
+opt-level = 3

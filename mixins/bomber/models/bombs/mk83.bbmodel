@@ -1,0 +1,134 @@
+{
+  "format_version": "1.23.0",
+  "name": "Mk 83 Bomb (1,000 lb)",
+  "texture_width": 128,
+  "texture_height": 128,
+  "visible_bounds_width": 6,
+  "visible_bounds_height": 6,
+  "visible_bounds_depth": 16,
+  "groups": [
+    {
+      "name": "BombBody",
+      "origin": [0, 0, 0],
+      "cubes": [
+        {
+          "origin": [-3, -3, -8],
+          "size": [6, 6, 16],
+          "uv": [0, 0],
+          "inflate": 0
+        },
+        {
+          "origin": [-2.5, -2.5, -9],
+          "size": [5, 5, 2],
+          "uv": [24, 0],
+          "inflate": 0
+        }
+      ]
+    },
+    {
+      "name": "TailFins",
+      "origin": [0, 0, 8],
+      "children": [
+        {
+          "name": "Fin1",
+          "origin": [0, 0, 0],
+          "cubes": [
+            {
+              "origin": [-0.5, -5, 8],
+              "size": [1, 10, 5],
+              "uv": [0, 22],
+              "inflate": 0
+            }
+          ]
+        },
+        {
+          "name": "Fin2",
+          "origin": [0, 0, 0],
+          "cubes": [
+            {
+              "origin": [-0.5, -5, 8],
+              "size": [1, 10, 5],
+              "uv": [0, 22],
+              "inflate": 0
+            }
+          ],
+          "rotation": [0, 90, 0]
+        },
+        {
+          "name": "Fin3",
+          "origin": [0, 0, 0],
+          "cubes": [
+            {
+              "origin": [-0.5, -5, 8],
+              "size": [1, 10, 5],
+              "uv": [0, 22],
+              "inflate": 0
+            }
+          ],
+          "rotation": [0, 180, 0]
+        },
+        {
+          "name": "Fin4",
+          "origin": [0, 0, 0],
+          "cubes": [
+            {
+              "origin": [-0.5, -5, 8],
+              "size": [1, 10, 5],
+              "uv": [0, 22],
+              "inflate": 0
+            }
+          ],
+          "rotation": [0, 270, 0]
+        }
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "name": "mk83_body",
+      "path": "textures/entity/bombs/mk83_body.png"
+    },
+    {
+      "name": "mk83_fins",
+      "path": "textures/entity/bombs/mk83_fins.png"
+    }
+  ],
+  "display": {
+    "gui": {
+      "rotation": [0, 45, 0],
+      "translation": [0, 0, 0],
+      "scale": 1.2
+    },
+    "ground": {
+      "rotation": [0, 0, 0],
+      "translation": [0, 0, 0],
+      "scale": 0.6
+    },
+    "fixed": {
+      "rotation": [0, 0, 0],
+      "translation": [0, 0, 0],
+      "scale": 1.0
+    },
+    "firstperson_righthand": {
+      "rotation": [0, 0, 0],
+      "translation": [0, 0, 0],
+      "scale": 0.8
+    },
+    "thirdperson_righthand": {
+      "rotation": [0, 0, 0],
+      "translation": [0, 0, 0],
+      "scale": 0.6
+    }
+  },
+  "animations": {
+    "fin_deploy": {
+      "loop": false,
+      "bones": {
+        "Fin1": { "rotation": [{"pre": "query.fin_deploy * 90"}, 0, 0] },
+        "Fin2": { "rotation": [{"pre": "query.fin_deploy * 90"}, 90, 0] },
+        "Fin3": { "rotation": [{"pre": "query.fin_deploy * 90"}, 180, 0] },
+        "Fin4": { "rotation": [{"pre": "query.fin_deploy * 90"}, 270, 0] }
+      }
+    }
+  }
+}

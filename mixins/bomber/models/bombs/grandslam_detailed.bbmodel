@@ -1,0 +1,307 @@
+{
+  "format_version": "1.23.0",
+  "name": "Grand Slam (22,000 lb Earthquake Bomb) - Detailed",
+  "texture_width": 1024,
+  "texture_height": 1024,
+  "visible_bounds_width": 22,
+  "visible_bounds_height": 22,
+  "visible_bounds_depth": 60,
+  "groups": [
+    {
+      "name": "BombBody",
+      "origin": [0, 0, 0],
+      "children": [
+        {
+          "name": "NoseTip",
+          "origin": [0, 0, -30],
+          "cubes": [
+            {
+              "origin": [-9, -9, -30],
+              "size": [18, 18, 8],
+              "uv": [0, 0],
+              "inflate": 0
+            },
+            {
+              "origin": [-8, -8, -28],
+              "size": [16, 16, 6],
+              "uv": [72, 0],
+              "inflate": 0.1
+            },
+            {
+              "origin": [-7, -7, -26],
+              "size": [14, 14, 5],
+              "uv": [136, 0],
+              "inflate": 0.2
+            },
+            {
+              "origin": [-6, -6, -24],
+              "size": [12, 12, 5],
+              "uv": [192, 0],
+              "inflate": 0.3
+            }
+          ]
+        },
+        {
+          "name": "PenetratorSection",
+          "origin": [0, 0, -22],
+          "cubes": [
+            {
+              "origin": [-10, -10, -22],
+              "size": [20, 20, 18],
+              "uv": [0, 30],
+              "inflate": 0
+            },
+            {
+              "origin": [-9, -9, -20],
+              "size": [18, 18, 16],
+              "uv": [80, 30],
+              "inflate": 0.1
+            },
+            {
+              "origin": [-8, -8, -18],
+              "size": [16, 16, 14],
+              "uv": [152, 30],
+              "inflate": 0.2
+            }
+          ]
+        },
+        {
+          "name": "MainCharge",
+          "origin": [0, 0, -4],
+          "cubes": [
+            {
+              "origin": [-11, -11, -4],
+              "size": [22, 22, 28],
+              "uv": [0, 78],
+              "inflate": 0
+            },
+            {
+              "origin": [-10, -10, -2],
+              "size": [20, 20, 24],
+              "uv": [88, 78],
+              "inflate": 0.1
+            }
+          ]
+        },
+        {
+          "name": "AftSection",
+          "origin": [0, 0, 24],
+          "cubes": [
+            {
+              "origin": [-10, -10, 24],
+              "size": [20, 20, 8],
+              "uv": [0, 130],
+              "inflate": 0
+            },
+            {
+              "origin": [-9, -9, 32],
+              "size": [18, 18, 6],
+              "uv": [80, 130],
+              "inflate": 0.1
+            },
+            {
+              "origin": [-8, -8, 38],
+              "size": [16, 16, 5],
+              "uv": [152, 130],
+              "inflate": 0.2
+            }
+          ]
+        },
+        {
+          "name": "Lugs",
+          "origin": [0, 0, -2],
+          "children": [
+            {
+              "name": "LugFront",
+              "origin": [0, -11, -2],
+              "cubes": [
+                {
+                  "origin": [-1.5, -12, -2],
+                  "size": [3, 2, 6],
+                  "uv": [0, 160],
+                  "inflate": 0
+                }
+              ]
+            },
+            {
+              "name": "LugRear",
+              "origin": [0, -11, 22],
+              "cubes": [
+                {
+                  "origin": [-1.5, -12, 22],
+                  "size": [3, 2, 6],
+                  "uv": [0, 160],
+                  "inflate": 0
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "TailFins",
+      "origin": [0, 0, 30],
+      "children": [
+        {
+          "name": "FinRoot1",
+          "origin": [0, 0, 0],
+          "cubes": [
+            {
+              "origin": [-1.2, -13, 30],
+              "size": [2.4, 14, 8],
+              "uv": [0, 175],
+              "inflate": 0
+            }
+          ]
+        },
+        {
+          "name": "FinTip1",
+          "origin": [0, -13, 38],
+          "cubes": [
+            {
+              "origin": [-1, -15, 38],
+              "size": [2, 5, 6],
+              "uv": [20, 175],
+              "inflate": 0
+            }
+          ]
+        },
+        {
+          "name": "FinRoot2",
+          "origin": [0, 0, 0],
+          "cubes": [
+            {
+              "origin": [-1.2, -13, 30],
+              "size": [2.4, 14, 8],
+              "uv": [0, 175],
+              "inflate": 0
+            }
+          ],
+          "rotation": [0, 90, 0]
+        },
+        {
+          "name": "FinTip2",
+          "origin": [0, -13, 38],
+          "cubes": [
+            {
+              "origin": [-1, -15, 38],
+              "size": [2, 5, 6],
+              "uv": [20, 175],
+              "inflate": 0
+            }
+          ],
+          "rotation": [0, 90, 0]
+        },
+        {
+          "name": "FinRoot3",
+          "origin": [0, 0, 0],
+          "cubes": [
+            {
+              "origin": [-1.2, -13, 30],
+              "size": [2.4, 14, 8],
+              "uv": [0, 175],
+              "inflate": 0
+            }
+          ],
+          "rotation": [0, 180, 0]
+        },
+        {
+          "name": "FinTip3",
+          "origin": [0, -13, 38],
+          "cubes": [
+            {
+              "origin": [-1, -15, 38],
+              "size": [2, 5, 6],
+              "uv": [20, 175],
+              "inflate": 0
+            }
+          ],
+          "rotation": [0, 180, 0]
+        },
+        {
+          "name": "FinRoot4",
+          "origin": [0, 0, 0],
+          "cubes": [
+            {
+              "origin": [-1.2, -13, 30],
+              "size": [2.4, 14, 8],
+              "uv": [0, 175],
+              "inflate": 0
+            }
+          ],
+          "rotation": [0, 270, 0]
+        },
+        {
+          "name": "FinTip4",
+          "origin": [0, -13, 38],
+          "cubes": [
+            {
+              "origin": [-1, -15, 38],
+              "size": [2, 5, 6],
+              "uv": [20, 175],
+              "inflate": 0
+            }
+          ],
+          "rotation": [0, 270, 0]
+        }
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "name": "grandslam_body",
+      "path": "textures/entity/bombs/grandslam/grandslam_body.png"
+    },
+    {
+      "name": "grandslam_fins",
+      "path": "textures/entity/bombs/grandslam/grandslam_fins.png"
+    },
+    {
+      "name": "grandslam_lugs",
+      "path": "textures/entity/bombs/grandslam/grandslam_lugs.png"
+    }
+  ],
+  "display": {
+    "gui": {
+      "rotation": [0, 45, 0],
+      "translation": [0, 0, 0],
+      "scale": 0.6
+    },
+    "ground": {
+      "rotation": [0, 0, 0],
+      "translation": [0, 0, 0],
+      "scale": 0.3
+    },
+    "fixed": {
+      "rotation": [0, 0, 0],
+      "translation": [0, 0, 0],
+      "scale": 0.5
+    },
+    "firstperson_righthand": {
+      "rotation": [0, 0, 0],
+      "translation": [0, 0, 0],
+      "scale": 0.4
+    },
+    "thirdperson_righthand": {
+      "rotation": [0, 0, 0],
+      "translation": [0, 0, 0],
+      "scale": 0.3
+    }
+  },
+  "animations": {
+    "fin_deploy": {
+      "loop": false,
+      "bones": {
+        "FinRoot1": { "rotation": [{"pre": "query.fin_deploy * 90"}, 0, 0] },
+        "FinTip1": { "rotation": [{"pre": "query.fin_deploy * 90"}, 0, 0] },
+        "FinRoot2": { "rotation": [{"pre": "query.fin_deploy * 90"}, 90, 0] },
+        "FinTip2": { "rotation": [{"pre": "query.fin_deploy * 90"}, 90, 0] },
+        "FinRoot3": { "rotation": [{"pre": "query.fin_deploy * 90"}, 180, 0] },
+        "FinTip3": { "rotation": [{"pre": "query.fin_deploy * 90"}, 180, 0] },
+        "FinRoot4": { "rotation": [{"pre": "query.fin_deploy * 90"}, 270, 0] },
+        "FinTip4": { "rotation": [{"pre": "query.fin_deploy * 90"}, 270, 0] }
+      }
+    }
+  }
+}
