@@ -4,7 +4,10 @@ version = "0.1.0"
 priority = 100
 
 [compatibility]
-horizon_revision = "HEAD"
+# REPLACE WITH ACTUAL HORIZON COMMIT HASH (40 hex chars)
+# Get it from: git -C ~/.horizon/horizon rev-parse HEAD
+# Or from Horizon launcher's "About" / logs
+horizon_revision = "0000000000000000000000000000000000000000"
 
 [[module]]
 source = "mixins/bomber/bomber_runtime.rs"
