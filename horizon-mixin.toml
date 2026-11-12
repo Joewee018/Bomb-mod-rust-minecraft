@@ -1,0 +1,55 @@
+[mod]
+id = "bomber"
+version = "0.1.0"
+priority = 100
+
+[compatibility]
+horizon_revision = "HEAD"
+
+[[module]]
+source = "mixins/bomber/bomber_runtime.rs"
+name = "bomber_runtime"
+
+[[module]]
+source = "mixins/bomber/physics.rs"
+name = "bomber_physics"
+
+[[module]]
+source = "mixins/bomber/plane.rs"
+name = "bomber_plane"
+
+[[module]]
+source = "mixins/bomber/bomb.rs"
+name = "bomber_bomb"
+
+[[module]]
+source = "mixins/bomber/nuke.rs"
+name = "bomber_nuke"
+
+[[module]]
+source = "mixins/bomber/flight.rs"
+name = "bomber_flight"
+
+[[module]]
+source = "mixins/bomber/ui.rs"
+name = "bomber_ui"
+
+[[module]]
+source = "mixins/bomber/render.rs"
+name = "bomber_render"
+
+[[module]]
+source = "mixins/bomber/command.rs"
+name = "bomber_command"
+
+[[module]]
+source = "mixins/bomber/settings.rs"
+name = "bomber_settings"
+
+[[module]]
+source = "mixins/bomber/key.rs"
+name = "bomber_key"
+
+[[module]]
+source = "mixins/bomber/mods.rs"
+name = "bomber_mods"
